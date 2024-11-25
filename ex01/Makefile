@@ -1,7 +1,7 @@
 NAME = main
 CC = c++
 CFLAGS = -Wall -Werror -Wextra -std=c++17
-SRC = main.cpp Animal.cpp Dog.cpp Cat.cpp
+SRC = main.cpp Animal.cpp Dog.cpp Cat.cpp Brain.cpp
 OBJ_DIR = ./obj
 OBJ = $(SRC:%.cpp=$(OBJ_DIR)/%.o)
 
